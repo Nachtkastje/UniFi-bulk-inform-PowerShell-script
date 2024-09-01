@@ -12,10 +12,10 @@ It will create a output file named unifi_log.txt to tell you the output of the S
 ## ⚙️ Parameters
 The script contains a few parameters you can change if you want.
 
-The file where you can fill in the credentials: $credentialsFile = "credentials.txt" 
-The file where you can input your IP Addresses: $ipAddressesFile = "ip_addresses.txt"
-The file where all logging will be written to: $logFile = "unifi_log.txt"
-The url of your inform portal: $commandToRun = "mca-cli-op set-inform https:/yourportal.tld:8080/inform"  
+- The file where you can fill in the credentials: $credentialsFile = "credentials.txt" 
+- The file where you can input your IP Addresses: $ipAddressesFile = "ip_addresses.txt"
+- The file where all logging will be written to: $logFile = "unifi_log.txt"
+- The url of your inform portal: $commandToRun = "mca-cli-op set-inform https:/yourportal.tld:8080/inform"  
 
 ## 💬 Support
 This script comes with no support what so ever, but i'm happy to help if you have questions or need custom functions.
