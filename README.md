@@ -6,7 +6,8 @@ But if you are tired of UniFi devices showing randomly showwing 'Offline' then u
 1. Download the script
 2. Create a file with the name: credentials.txt - fill in your SSH username on the first line and the password on the second line.
 3. Create a file with the name: ip_addresses.txt - you can use this file to paste in all the IP addresses (on each line you need to enter 1 IP address)
-4. Run the powershell script as Administrator and let the magic do the work.
+4. Download & Import PoshSSH (Install-Module -Name Posh-SSH -Force -AllowClobber and Import-Module Posh-SSH)
+5. Run the powershell script as Administrator and let the magic do the work.
 It will create a output file named unifi_log.txt to tell you the output of the SSH command 
 
 ## ⚙️ Parameters
